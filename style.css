@@ -1,3 +1,6 @@
+body{
+	font-family: 'Lato', 'Helvetica','Arial', sans-serif;
+}
 .clear {
 	clear: both;
 }
@@ -6,22 +9,77 @@
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
+	margin-bottom: 30px ;
 }
 
 #name {
 	float: left;
 }
+#name h2{
+	font-weight: 400;
+}
 
 #contactDetails {
 	float: right;
+}
+.mainDetails{
+	border-bottom: solid 2px #cf8a05;
+	
 }
 
 .sectionTitle {
 	float: left;
 	width: 25%;
+	color:#cf8a05 ;
+	
+	font-style: italic;
+	font-size: 18px;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+
+}
+
+#cv{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+
+#contactDetails ul li{
+	list-style:none;
+	font-weight: 350;
+}
+#contactDetails ul li a{
+	color: black;
+	text-decoration: none;
+}
+#contactDetails ul li a:hover{
+	color:#cf8a05 ;
+}
+#mainArea h1{
+	font-weight: 450;
+}
+
+#mainArea h2{
+	font-weight: 40;
+}
+section .sectionContent .keySkills{
+	column-count: 3;
+}
+section .sectionContent .keySkills li{
+	
+	list-style:none;
+}
+section  {
+	padding: 25px;
+	border-top: 2px solid #dedede;
+}
+.subDetails{
+	font-style: italic;
+	font-weight: 100;
 }
