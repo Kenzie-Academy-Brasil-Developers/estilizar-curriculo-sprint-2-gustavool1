@@ -63,7 +63,7 @@ body{
 	font-weight: 350;
 }
 #contactDetails ul li a{
-	color: black;
+	color: #181818;
 	text-decoration: none;
 }
 #contactDetails ul li a:hover{
@@ -76,6 +76,9 @@ body{
 #mainArea h2{
 	font-weight: 500;
 	color: #444444;
+}
+.sectionContent{
+	color:#181818
 }
 section .sectionContent .keySkills{
 	column-count: 3;
