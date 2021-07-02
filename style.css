@@ -1,5 +1,6 @@
 body{
 	font-family: 'Lato', 'Helvetica','Arial', sans-serif;
+	background-color: #f3f3f3;
 }
 .clear {
 	clear: both;
@@ -11,14 +12,19 @@ body{
 	margin-right: 30px;
 	margin-bottom: 30px ;
 }
+#headshot img{
+	border-radius: 50%;
+}
 #name .name-owner{
 	margin-bottom: -20px ;
+	color: #444444;
 }
 #name {
 	float: left;
 }
 #name h2{
 	font-weight: 400;
+	color: #444444;
 }
 
 #contactDetails {
@@ -69,6 +75,7 @@ body{
 
 #mainArea h2{
 	font-weight: 500;
+	color: #444444;
 }
 section .sectionContent .keySkills{
 	column-count: 3;
@@ -79,7 +86,7 @@ section .sectionContent .keySkills li{
 }
 section  {
 	padding: 25px;
-	border-top: 2px solid #dedede;
+	border-top: 1px solid #dedede;
 }
 .subDetails{
 	font-style: italic;
